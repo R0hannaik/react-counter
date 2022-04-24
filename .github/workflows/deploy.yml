@@ -32,9 +32,6 @@ jobs:
       - name: Install Package
         run: npm install
         
-      - name: Test and Code Coverage
-        run: npm run test -- --coverage
-        
       - name: Build Package
         env:
           CI: false
