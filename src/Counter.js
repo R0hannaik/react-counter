@@ -15,7 +15,7 @@ function Counter() {
             <button onClick={handleButtonclick}>Increment Counter</button>
         </div>
         <div>
-            Counter value is at : {counter}
+            Counter value is at : <span data-testid="counter-value">{counter}</span>
         </div>
       </>
   )
